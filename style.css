@@ -209,6 +209,7 @@ section{
 .bg-img{
     width: 200px;
     height: 200px;
+    scale: 1.2;
     border-radius: 50%;
     border: 5px solid black;
     position: absolute;
@@ -472,6 +473,9 @@ textarea{
     }
     .home__contend{
         margin-left: 4rem;
+    }
+    .bg-img{
+        scale: 1.1;
     }
     
     

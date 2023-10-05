@@ -381,10 +381,14 @@ textarea{
 .contact__contactUs .location{
     display: flex;
     align-items: center;  
+    justify-content: flex-start;
 }
 .contact__contactUs .location i{
     font-size: 1.5rem;
     margin: 1rem;
+}
+.location span{
+    width: 80%;
 }
 
 @media screen and (max-width :340px){
